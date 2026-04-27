@@ -1,21 +1,52 @@
-# Workflow Template
+# Workflow: <number>-<name>
 
-Use this template when creating a new workflow.
+## Overview
+[One paragraph: what this workflow accomplishes, when to use it, what it produces.]
 
-## Structure
+## Phase
+<PROTOTYPE | MVP | PRODUCTION>
 
-Each workflow should include:
-- Workflow purpose and goals
-- Step-by-step process
-- Agent responsibilities
-- Decision points
-- Error handling
-- Success criteria
+## Participants
 
-## Creation Steps
+| Agent | Role |
+|---|---|
+| orchestrator-agent | Coordinates workflow execution |
+| <agent-name> | <role in this workflow> |
 
-1. Create workflow file with sequence number
-2. Define workflow steps
-3. Assign agents to steps
-4. Define transitions and conditions
-5. Add to workflow-registry.md
+## Inputs
+- [Input 1 — be specific: file name and source workflow]
+- [Input 2]
+
+## Outputs
+- [Output 1 — file name and format]
+- [Output 2]
+
+## Steps
+
+### Step 1: <Name> (Agent: <agent-name>)
+**Action**: [What the agent does — imperative, specific]
+**Inputs**: [What it receives]
+**Outputs**: [What it produces]
+**Saves to**: `docs/agent-outputs/<agent-name>/`
+
+### Step 2: <Name> (Agent: <agent-name>)
+**Action**: [What the agent does]
+**Inputs**: [What it receives]
+**Outputs**: [What it produces]
+**Saves to**: `docs/agent-outputs/<agent-name>/`
+
+## Success Criteria
+- [ ] [Criterion 1 — measurable]
+- [ ] [Criterion 2]
+
+## Error Handling
+| Scenario | Response |
+|---|---|
+| Missing input | Escalate to orchestrator; halt until resolved |
+| Agent failure | Log error; notify orchestrator; retry or skip |
+| Output invalid | Flag in output file; create follow-up task |
+
+## Safety Gates
+- [ ] No secrets in any output files
+- [ ] Confirmation required before destructive operations
+- [ ] All outputs saved to correct output directory
