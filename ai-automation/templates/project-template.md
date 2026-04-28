@@ -45,12 +45,12 @@ List any from the same options above that also apply.
 > **Answer**: 
 
 **Question 2.3 — What is the current phase?**  
-Choose one: `PROTOTYPE` · `MVP` · `PRODUCTION`
+Choose one: `prototype` · `mvp` · `production`
 
 > **Answer**: 
 
 **Question 2.4 — What is the current status?**  
-Choose one: `ACTIVE` · `ON HOLD` · `ARCHIVED`
+Choose one: `active` · `on-hold` · `archived`
 
 > **Answer**: 
 
@@ -154,12 +154,12 @@ Choose one: `ACTIVE` · `ON HOLD` · `ARCHIVED`
 > **Answer**: 
 
 **Question 6.3 — What is the data sensitivity level?**  
-Choose one: `PUBLIC` · `INTERNAL` · `CONFIDENTIAL` · `RESTRICTED`
+Choose one: `public` · `internal` · `confidential` · `restricted`
 
 > **Answer**: 
 
 **Question 6.4 — Does the project handle PII (Personally Identifiable Information) or PHI (Protected Health Information)?**  
-Choose one: `YES` · `NO`
+Choose one: `true` · `false`
 
 > **Answer**: 
 

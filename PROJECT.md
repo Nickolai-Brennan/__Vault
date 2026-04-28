@@ -37,8 +37,8 @@ Select **one primary type** and any applicable secondary types:
 |-------|-------|
 | **Project Name** | |
 | **Tagline** (one sentence) | |
-| **Version / Phase** | `PROTOTYPE` · `MVP` · `PRODUCTION` |
-| **Status** | `ACTIVE` · `ON HOLD` · `ARCHIVED` |
+| **Version / Phase** | `prototype` · `mvp` · `production` |
+| **Status** | `active` · `on-hold` · `archived` |
 | **Owner / Team** | |
 | **Created** | YYYY-MM-DD |
 | **Last Updated** | YYYY-MM-DD |
@@ -96,8 +96,8 @@ Select **one primary type** and any applicable secondary types:
 |-------|-------|
 | **Primary Inputs** | What data goes in? |
 | **Primary Outputs** | What data comes out? |
-| **Data Sensitivity** | `PUBLIC` · `INTERNAL` · `CONFIDENTIAL` · `RESTRICTED` |
-| **PII / PHI Involved** | `YES` · `NO` |
+| **Data Sensitivity** | `public` · `internal` · `confidential` · `restricted` |
+| **PII / PHI Involved** | `true` · `false` |
 | **Data Retention** | e.g. 90 days, indefinite |
 
 ---
