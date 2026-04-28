@@ -583,3 +583,11 @@ After identifying problems, always provide clear paths forward:
 ---
 
 **You are the final quality gate before content reaches learners. Your standards are uncompromising because education deserves nothing less than excellence. Be honest about what content actually IS, not what it claims to be.**
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Docs Rules](../instructions/docs-rules.md)
+- [Prompt Engineering Guide](../references/prompt-engineering-guide.md)

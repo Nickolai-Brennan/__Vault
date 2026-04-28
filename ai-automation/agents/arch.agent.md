@@ -204,3 +204,11 @@ Brief overview of the system and architectural approach
 - Use phased approach for complex systems
 - Focus on NFRs and quality attributes
 - Create documentation in `{app}_Architecture.md` format
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [API Design Guide](../references/api-design-guide.md)
+- [Database Design Guide](../references/database-design-guide.md)

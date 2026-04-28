@@ -59,3 +59,9 @@ agent_output:
 - Never include raw PII in chart definitions, annotations, or example data.
 - Flag any visualization that displays data at a granularity that could re-identify individuals.
 - Warn before finalizing any chart that uses a non-zero baseline without clear labeling.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

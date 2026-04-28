@@ -28,3 +28,9 @@
 2. Write output to `docs/agent-outputs/project-planner-agent/`
 3. Set `next_agent` and populate `handoff_notes`
 4. Notify orchestrator of completion
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

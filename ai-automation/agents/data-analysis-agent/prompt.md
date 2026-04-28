@@ -58,3 +58,9 @@ agent_output:
 - Never log or reproduce PII values from the dataset.
 - Flag any derived insight that could be used to re-identify individuals.
 - Do not fabricate statistics or fill gaps with estimated values without labeling them clearly.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

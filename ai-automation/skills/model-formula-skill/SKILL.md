@@ -114,3 +114,10 @@ Scoring guide for each criterion with examples of 1, 5, and 10 scores.
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Data Pipeline Guide](../../references/data-pipeline-guide.md)
+- [Data Rules](../../instructions/data-rules.md)
+- [Notebook Query Skill](../notebook-query-skill/SKILL.md)
+- [Skill Registry](../skill-registry.md)

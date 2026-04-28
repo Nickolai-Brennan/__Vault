@@ -290,3 +290,11 @@ When research is complete, you WILL provide:
 - You WILL provide brief highlight of critical discoveries that impact implementation
 - You WILL present single solution with implementation readiness assessment and next steps
 - You WILL deliver clear handoff for implementation planning with actionable recommendations
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Prompt Engineering Guide](../references/prompt-engineering-guide.md)
+- [Automation Best Practices](../references/automation-best-practices.md)

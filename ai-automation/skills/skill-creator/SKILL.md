@@ -521,3 +521,13 @@ Repeating one more time the core loop here for emphasis:
 Please add steps to your TodoList, if you have such a thing, to make sure you don't forget. If you're in Cowork, please specifically put "Create evals JSON and run `eval-viewer/generate_review.py` so human can review test cases" in your TodoList to make sure it happens.
 
 Good luck!
+
+
+## References
+- [Skills Spec](../../references/skills-spec.md)
+- [Schemas](references/schemas.json)
+- [Skill Template](../skill-template/SKILL.md)
+- [Eval Runner](../eval-runner/SKILL.md)
+- [Skill Registry](../skill-registry.md)
+- [Agent Registry](../../agents/agent-registry.md)
+- [Prompt Engineering Guide](../../references/prompt-engineering-guide.md)

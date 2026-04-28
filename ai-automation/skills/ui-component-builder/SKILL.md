@@ -86,3 +86,12 @@ export const Example: React.FC<ExampleProps> = ({
 - [`frontend/src/design-system/components/Button.tsx`](../../frontend/src/design-system/components/Button.tsx)
 - [`docs/ui-components.md`](../../docs/ui-components.md)
 - [`.github/agents/ui-component-agent.md`](../../.github/agents/ui-component-agent.md)
+
+
+## References
+- [Frontend Rules](../../instructions/frontend-rules.md)
+- [HTML/CSS Style Guide](../../instructions/html-css-style-color-guide.instructions.md)
+- [Dashboard Design Guide](../../references/dashboard-design-guide.md)
+- [Design System Builder](../design-system-builder/SKILL.md)
+- [Coding Standards](../../instructions/coding-standards.md)
+- [Skill Registry](../skill-registry.md)

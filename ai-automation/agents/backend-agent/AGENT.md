@@ -89,3 +89,9 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/backend-agent/`
+- [Coding Standards](../../instructions/coding-standards.md)
+- [API Rules](../../instructions/api-rules.md)
+- [Security Rules](../../instructions/security-rules.md)
+- [Testing Rules](../../instructions/testing-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

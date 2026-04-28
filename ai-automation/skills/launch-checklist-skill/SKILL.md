@@ -127,3 +127,10 @@ load test ✗, rollback plan ✗, monitoring ✗. Are we ready to launch?"
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Automation Best Practices](../../references/automation-best-practices.md)
+- [Repo Rules](../../instructions/repo-rules.md)
+- [DevOps Core Principles](../../instructions/devops-core-principles.instructions.md)
+- [Skill Registry](../skill-registry.md)

@@ -42,3 +42,9 @@
 - [ ] Add undocumented endpoints
 - [ ] Place business logic in route handlers or data access layers
 - [ ] Hardcode credentials, URLs, or client configurations
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

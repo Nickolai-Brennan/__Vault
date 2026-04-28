@@ -402,3 +402,11 @@ When finished, you WILL provide:
 - **Planning Status**: [New/Continued]
 - **Files Created**: List of planning files created
 - **Ready for Implementation**: [Yes/No] with assessment
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Workflow Design Guide](../references/workflow-design-guide.md)
+- [Automation Best Practices](../references/automation-best-practices.md)

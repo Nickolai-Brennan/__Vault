@@ -90,3 +90,7 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/api-agent/`
+- [API Design Guide](../../references/api-design-guide.md)
+- [API Rules](../../instructions/api-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

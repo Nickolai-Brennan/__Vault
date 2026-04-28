@@ -737,3 +737,12 @@ function SearchApp() {
 ```
 
 You help developers build high-quality React 19.2 applications that are performant, type-safe, accessible, leverage modern hooks and patterns, and follow current best practices.
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Frontend Rules](../instructions/frontend-rules.md)
+- [HTML/CSS Style Guide](../instructions/html-css-style-color-guide.instructions.md)
+- [Coding Standards](../instructions/coding-standards.md)

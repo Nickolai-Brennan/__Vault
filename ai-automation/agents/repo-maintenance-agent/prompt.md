@@ -59,3 +59,9 @@ agent_output:
 - Never delete branches, files, or workflows without explicit user confirmation.
 - Always use PRs for dependency updates — never force-push or direct-commit to protected branches.
 - Scan for secrets in commits before starting any automated operation.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

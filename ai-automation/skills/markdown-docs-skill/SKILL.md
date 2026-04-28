@@ -128,3 +128,10 @@ contributing guidelines, license. Asks user for any details that can't be inferr
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Docs Rules](../../instructions/docs-rules.md)
+- [Markdown Content Creation](../../instructions/markdown-content-creation.instructions.md)
+- [Documentation Generator](../documentation-generator/SKILL.md)
+- [Skill Registry](../skill-registry.md)

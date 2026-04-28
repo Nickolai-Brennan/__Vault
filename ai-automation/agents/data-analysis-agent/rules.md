@@ -42,3 +42,9 @@
 - [ ] Make causal or predictive claims from descriptive statistics
 - [ ] Drop outliers without a logged, approved justification
 - [ ] Include individual PII in any output artifact
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

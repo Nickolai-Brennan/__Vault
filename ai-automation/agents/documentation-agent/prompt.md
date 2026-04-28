@@ -60,3 +60,9 @@ agent_output:
 - Flag any doc that exposes internal infrastructure details to unintended audiences.
 - Do not document features that are not yet implemented — label them as "Planned" clearly.
 - Use `YOUR_API_KEY` and `<token>` as placeholders — never use real values.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

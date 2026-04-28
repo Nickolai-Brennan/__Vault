@@ -69,3 +69,10 @@ Use this skill when the user asks to:
 - `database/schemas/analytics.sql` (seo_reports, keyword_reports)
 - `frontend/src/admin/SEOReports.tsx`
 - `frontend/src/admin/KeywordTagReports.tsx`
+
+
+## References
+- [Docs Rules](../../instructions/docs-rules.md)
+- [Markdown Content Creation](../../instructions/markdown-content-creation.instructions.md)
+- [Prompt Engineering Guide](../../references/prompt-engineering-guide.md)
+- [Skill Registry](../skill-registry.md)

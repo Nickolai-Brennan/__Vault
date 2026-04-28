@@ -351,3 +351,11 @@ Use these prompting terms consistently:
 - CRITICAL: Marks extremely important instructions
 - MANDATORY: Marks required steps
 <!-- </imperative-terms> -->
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Prompt Engineering Guide](../references/prompt-engineering-guide.md)
+- [Prompt Instructions](../instructions/prompt.instructions.md)

@@ -42,3 +42,9 @@
 - [ ] Stub components with fake data without clear documentation
 - [ ] Store auth tokens in localStorage
 - [ ] Mix state management patterns within a project
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

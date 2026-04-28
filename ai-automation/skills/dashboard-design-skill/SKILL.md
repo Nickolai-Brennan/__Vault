@@ -106,3 +106,10 @@ deployments, and on-call incidents."
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Dashboard Design Guide](../../references/dashboard-design-guide.md)
+- [Frontend Rules](../../instructions/frontend-rules.md)
+- [HTML/CSS Style Guide](../../instructions/html-css-style-color-guide.instructions.md)
+- [Skill Registry](../skill-registry.md)

@@ -89,3 +89,7 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/project-planner-agent/`
+- [Workflow Design Guide](../../references/workflow-design-guide.md)
+- [Automation Best Practices](../../references/automation-best-practices.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

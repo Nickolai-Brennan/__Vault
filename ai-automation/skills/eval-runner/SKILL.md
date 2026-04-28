@@ -64,3 +64,11 @@ Use this skill when the user asks to:
 ## Reference
 - [`evals/`](../../evals/)
 - [`instructions/testing.md`](../../instructions/testing.md)
+
+
+## References
+- [Skills Spec](../../references/skills-spec.md)
+- [Schemas](../../references/schemas.json)
+- [Skill Creator](../skill-creator/SKILL.md)
+- [Skill Template](../skill-template/SKILL.md)
+- [Skill Registry](../skill-registry.md)

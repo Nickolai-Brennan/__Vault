@@ -56,3 +56,9 @@ agent_output:
 - Never embed secrets, tokens, or credentials in outputs.
 - Require explicit user confirmation before any phase transition.
 - Halt and escalate if any agent output contains a critical risk flag.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

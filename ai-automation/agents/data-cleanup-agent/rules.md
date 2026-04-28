@@ -42,3 +42,9 @@
 - [ ] Modify or overwrite the source dataset
 - [ ] Infer deduplication keys or normalization rules
 - [ ] Pass an all-null column downstream without flagging it
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

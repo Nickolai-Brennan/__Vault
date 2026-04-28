@@ -91,3 +91,6 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/marketing-agent/`
+- [Docs Rules](../../instructions/docs-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

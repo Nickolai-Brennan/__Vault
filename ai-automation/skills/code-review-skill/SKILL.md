@@ -108,3 +108,11 @@ not sure why." *(component code attached)*
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Coding Standards](../../instructions/coding-standards.md)
+- [Security Rules](../../instructions/security-rules.md)
+- [Testing Rules](../../instructions/testing-rules.md)
+- [Performance Optimization](../../instructions/performance-optimization.instructions.md)
+- [Skill Registry](../skill-registry.md)

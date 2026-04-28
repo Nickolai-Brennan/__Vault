@@ -92,3 +92,7 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/database-agent/`
+- [Database Design Guide](../../references/database-design-guide.md)
+- [Database Rules](../../instructions/database-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

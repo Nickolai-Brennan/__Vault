@@ -59,3 +59,9 @@ agent_output:
 - Never embed secrets, tokens, or credentials in outputs.
 - Do not finalize a plan containing unresolved H/H risks without stakeholder sign-off.
 - Flag any requirement that introduces legal, compliance, or privacy concerns.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

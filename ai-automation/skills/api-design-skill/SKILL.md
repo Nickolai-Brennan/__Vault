@@ -102,3 +102,10 @@ stock levels, and transfer orders between warehouses."
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [API Design Guide](../../references/api-design-guide.md)
+- [API Rules](../../instructions/api-rules.md)
+- [Skill Registry](../skill-registry.md)
+- [Database Schema Skill](../database-schema-skill/SKILL.md) — use for schema design

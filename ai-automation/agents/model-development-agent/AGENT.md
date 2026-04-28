@@ -89,3 +89,7 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/model-development-agent/`
+- [Data Pipeline Guide](../../references/data-pipeline-guide.md)
+- [Coding Standards](../../instructions/coding-standards.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

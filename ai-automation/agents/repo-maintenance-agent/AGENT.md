@@ -94,3 +94,8 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/repo-maintenance-agent/`
+- [Repo Rules](../../instructions/repo-rules.md)
+- [Automation Best Practices](../../references/automation-best-practices.md)
+- [DevOps Core Principles](../../instructions/devops-core-principles.instructions.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

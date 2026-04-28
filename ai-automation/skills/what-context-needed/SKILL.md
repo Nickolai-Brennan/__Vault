@@ -37,3 +37,10 @@ Before answering my question, tell me what files you need to see.
 ```
 
 After I provide these files, I'll ask my question again.
+
+
+## References
+- [AI Agent Architecture](../../references/ai-agent-architecture.md)
+- [Prompt Engineering Guide](../../references/prompt-engineering-guide.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Skill Registry](../skill-registry.md)

@@ -42,3 +42,9 @@
 - [ ] Force-push to protected branches
 - [ ] Delete branches or tags without user approval
 - [ ] Sign off on launch if CI is broken or a critical CVE is open
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)
