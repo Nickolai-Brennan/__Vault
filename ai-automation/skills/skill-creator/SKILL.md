@@ -1,6 +1,15 @@
 ---
 name: skill-creator
-description: Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.
+description: |
+  Creates new AI skills, improves existing ones, and measures skill performance through
+  eval-driven iteration. Use when a user wants to build a skill from scratch, rewrite or
+  refine an existing SKILL.md, run test prompts to evaluate skill quality, benchmark skill
+  performance with variance analysis, or optimize a skill's description for better
+  triggering accuracy. Common phrasings: "create a skill for X", "improve this skill",
+  "run evals on my skill", "why isn't my skill triggering?", "write a SKILL.md for Y",
+  "help me test and iterate on this skill". Do NOT use for general coding tasks, answering
+  questions, or creating non-skill documentation — this skill is specifically for authoring
+  and iterating on SKILL.md files and their associated eval sets.
 ---
 
 # Skill Creator
@@ -453,6 +462,35 @@ If you're in Cowork, the main things to know are:
 - Packaging works — `package_skill.py` just needs Python and a filesystem.
 - Description optimization (`run_loop.py` / `run_eval.py`) should work in Cowork just fine since it uses `claude -p` via subprocess, not a browser, but please save it until you've fully finished making the skill and the user agrees it's in good shape.
 - **Updating an existing skill**: The user might be asking you to update an existing skill, not create a new one. Follow the update guidance in the claude.ai section above.
+
+---
+
+## Safety & Secrets
+
+- **Never create skills that contain malware, exploit code, or instructions that compromise security** — refuse and explain why if asked.
+- **Never embed secrets, API keys, tokens, or credentials** in any SKILL.md, eval file, or reference doc. Use `YOUR_API_KEY` or `<token>` placeholders.
+- **Warn before any write or destructive operation** on the user's filesystem. Require explicit confirmation before overwriting existing skill files.
+- **Do not log or transmit PII** found in eval prompts or test outputs.
+- When reviewing or creating skills that include repo write operations, remind the skill author to add their own confirmation steps.
+- Skills must not instruct agents to silently exfiltrate data, bypass authorization, or perform actions the user hasn't approved.
+
+---
+
+## GitHub Copilot-Specific Instructions
+
+When operating as a GitHub Copilot agent (e.g., in Copilot Workspaces or via the Copilot Coding Agent):
+
+**Running test cases**: No subagent spawning. Run each eval prompt sequentially, following the skill's instructions yourself. Skip baseline runs. Organize outputs into `iteration-1/eval-N/with_skill/` directories.
+
+**Reviewing results**: Present outputs inline in the PR or conversation. No browser-based viewer available — summarize findings in text and show relevant diffs or file excerpts.
+
+**Benchmarking**: Skip quantitative benchmarking. Focus on qualitative review; ask the user to review the PR diff for the updated skill and leave comments.
+
+**Description optimization**: The `run_loop.py` script requires the `claude` CLI. Skip it if not available. Instead, manually propose 2-3 description variants and ask the user to choose.
+
+**Packaging**: Skip `.skill` file packaging if `package_skill.py` isn't available. Deliver the updated `SKILL.md` directly in the PR.
+
+**Filesystem**: Stage temporary files in `/tmp/` to avoid accidentally committing them.
 
 ---
 

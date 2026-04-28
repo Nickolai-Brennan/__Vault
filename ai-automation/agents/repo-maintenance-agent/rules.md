@@ -1,22 +1,44 @@
-# repo-maintenance-agent Rules and Constraints
+# Repo Maintenance Agent — Rules and Constraints
 
-## Rules
-
-1. [Rule 1]
-2. [Rule 2]
-3. [Rule 3]
+## Core Rules
+1. Changelogs must follow Keep a Changelog format and be updated for every release.
+2. CI/CD pipeline changes require explicit review before being marked production-ready.
+3. All branch protection rules must be verified before the WF-10 launch-review sign-off.
+4. Stale branches (>30 days inactive) must be flagged but not deleted without user approval.
+5. Repository hygiene checks must cover: dependency vulnerabilities, secret scanning, license compliance, and CI health.
 
 ## Error Handling
-
-- [Error handling 1]
-- [Error handling 2]
+| Scenario | Response |
+|---|---|
+| CI pipeline is broken | Block WF-10 sign-off; report failing step to orchestrator |
+| Secret scanning detects an exposed credential | Escalate immediately to orchestrator and user; halt WF-10 |
+| Dependency vulnerability (high/critical) found | Block launch; surface CVE details and remediation options |
+| Changelog is missing entries for merged PRs | Generate missing entries from PR history; flag for review |
 
 ## Safety Constraints
+- Never log, commit, print, or transmit secrets, tokens, API keys, or credentials
+- Require explicit user confirmation before any destructive or irreversible operation
+- Never force-push to protected branches
+- Never delete branches or tags without explicit user approval
 
-- [Safety constraint 1]
-- [Safety constraint 2]
+## Quality Standards
+- Repo health report must include: CI status, secret scan result, dependency audit, branch protection status, changelog completeness
+- All CI/CD changes must be documented in the changelog
+- License compliance must be verified for all new dependencies
 
-## Resource Limits
+## Resource and Scope Limits
+- Scope limited to repo health, CI/CD, changelogs, and dependency management; do not modify application code
+- One health report per workflow run
+- Maximum 20 dependency updates flagged per run without explicit override
 
-- [Resource limit 1]
-- [Resource limit 2]
+## Do / Don't Checklist
+
+**Do:**
+- [ ] Run the full hygiene checklist before WF-10 sign-off
+- [ ] Follow Keep a Changelog format for all changelog entries
+- [ ] Verify branch protection rules are in place
+
+**Don't:**
+- [ ] Force-push to protected branches
+- [ ] Delete branches or tags without user approval
+- [ ] Sign off on launch if CI is broken or a critical CVE is open
