@@ -12,3 +12,4 @@ This directory contains JSON schemas for validation.
 - automation.schema.json
 - eval.schema.json
 - memory.schema.json
+- project.schema.json — question model for project type, purpose, stack, data, and constraints
