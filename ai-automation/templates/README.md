@@ -12,3 +12,4 @@ This directory contains reusable templates for creating new content.
 - eval-template.md
 - report-template.md
 - changelog-template.md
+- project-template.md — question model for identifying project type, structure, and purpose
