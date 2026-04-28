@@ -42,3 +42,9 @@
 - [ ] Use sequential integer IDs in public-facing APIs
 - [ ] Include production credentials in any schema artifact
 - [ ] Add indexes without a documented query justification
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

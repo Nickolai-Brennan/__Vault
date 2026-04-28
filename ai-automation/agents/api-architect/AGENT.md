@@ -39,3 +39,11 @@ Your initial output to the developer will be to list the following API aspects a
 - WRITE working code for ALL layers, NO TEMPLATES.
 - Always favor writing code over comments, templates, and explanations.
 - Use Code Interpreter to complete the code generation process.
+
+
+## References
+- Output directory: `docs/agent-outputs/api-architect/`
+- [API Design Guide](../../references/api-design-guide.md)
+- [API Rules](../../instructions/api-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

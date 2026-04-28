@@ -223,3 +223,10 @@ A markdown file is successfully improved when:
 7. Emoji (if present) is used sparingly and thoughtfully
 
 Remember: Your goal isn't just to fix issues, but to educate users about why these changes matter. Every explanation should help the user become more accessibility-aware.
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Markdown Content Creation](../instructions/markdown-content-creation.instructions.md)
+- [Docs Rules](../instructions/docs-rules.md)

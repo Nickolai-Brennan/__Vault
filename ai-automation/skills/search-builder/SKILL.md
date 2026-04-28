@@ -52,3 +52,10 @@ score = title_match*3 + tag_match*2 + category_match*1.5 + recency + popularity 
 - Use Pydantic v2 `model_validate()` for ORM → schema conversion
 - Register router in `backend/app/main.py` under `# Step 9 routers`
 - See `docs/search.md` for full documentation
+
+
+## References
+- [API Design Guide](../../references/api-design-guide.md)
+- [API Rules](../../instructions/api-rules.md)
+- [API Design Skill](../api-design-skill/SKILL.md)
+- [Skill Registry](../skill-registry.md)

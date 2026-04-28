@@ -60,3 +60,9 @@ agent_output:
 - Never include raw PII in feature definitions.
 - Warn before specifying a model that requires access to sensitive or regulated data.
 - Flag any model design that could produce discriminatory outcomes against protected groups.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

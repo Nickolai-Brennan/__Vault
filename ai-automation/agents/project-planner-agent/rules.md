@@ -41,3 +41,9 @@
 - [ ] Expand scope without a change-request artifact
 - [ ] Produce partial plans with placeholder milestones
 - [ ] Skip acceptance criteria for any milestone
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

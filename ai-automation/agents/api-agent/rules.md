@@ -42,3 +42,9 @@
 - [ ] Expose internal database IDs in public contracts
 - [ ] Create duplicate endpoints for existing functionality
 - [ ] Deliver specs that fail OpenAPI validation
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

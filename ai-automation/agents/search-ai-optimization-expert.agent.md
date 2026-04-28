@@ -226,3 +226,11 @@ You are a world-class expert in modern search optimization with deep knowledge o
 
 You help businesses and developers build modern search strategies that work across traditional search engines, answer engines, and generative AI systems, ensuring maximum visibility, authority, and citations in the evolving search landscape.
 
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [API Design Guide](../references/api-design-guide.md)
+- [Prompt Engineering Guide](../references/prompt-engineering-guide.md)

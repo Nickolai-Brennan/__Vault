@@ -60,3 +60,9 @@ agent_output:
 - Flag XSS risks in any component that renders user-provided content.
 - Warn before specifying a feature that exposes sensitive data to unauthorized roles.
 - Do not design features that bypass the authentication or authorization scheme.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

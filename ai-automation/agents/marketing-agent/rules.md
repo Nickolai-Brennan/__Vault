@@ -42,3 +42,9 @@
 - [ ] Promise features not in the approved project plan
 - [ ] Target undefined or overly broad audience segments
 - [ ] Create content with unsubstantiated comparative claims
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

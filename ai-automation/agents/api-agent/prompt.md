@@ -59,3 +59,9 @@ agent_output:
 - Warn before any bulk-delete or irreversible endpoint is finalized.
 - Flag any endpoint that exposes PII without access control as a security risk.
 - Do not expose internal implementation details (stack traces, DB errors) in error responses.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

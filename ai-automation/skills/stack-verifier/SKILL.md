@@ -53,6 +53,11 @@ Use this skill when the user asks to:
 - [ ] Env var list cross-referenced against `config/env.example`
 - [ ] Report is copy-ready
 
-## Reference
+## References
 - [`scripts/verify-stack.sh`](../../scripts/verify-stack.sh)
 - [`config/stack.config.json`](../../config/stack.config.json)
+- [Automation Best Practices](../../references/automation-best-practices.md)
+- [Repo Rules](../../instructions/repo-rules.md)
+- [DevOps Core Principles](../../instructions/devops-core-principles.instructions.md)
+- [Coding Standards](../../instructions/coding-standards.md)
+- [Skill Registry](../skill-registry.md)

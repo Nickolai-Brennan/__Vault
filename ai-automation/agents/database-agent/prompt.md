@@ -60,3 +60,9 @@ agent_output:
 - Warn before any DDL that irreversibly destroys data (DROP, TRUNCATE).
 - Flag all tables containing PII for encryption-at-rest consideration.
 - Do not issue DDL against a production database without an explicit review step defined in the migration plan.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

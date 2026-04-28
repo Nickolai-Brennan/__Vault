@@ -89,3 +89,7 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/data-cleanup-agent/`
+- [Data Pipeline Guide](../../references/data-pipeline-guide.md)
+- [Data Rules](../../instructions/data-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

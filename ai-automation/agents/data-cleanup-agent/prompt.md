@@ -57,3 +57,9 @@ agent_output:
 - Never modify source data in-place without explicit user confirmation.
 - Require confirmation before any operation that permanently deletes records.
 - Flag any field containing patterns matching PII (email, SSN, phone, full name).
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

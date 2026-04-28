@@ -61,3 +61,9 @@ agent_output:
 - Use mock credentials and test fixture data in all examples.
 - Flag any test that targets production data or a live external service.
 - Do not finalize a test plan that omits security testing for authenticated endpoints.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

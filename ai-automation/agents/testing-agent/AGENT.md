@@ -92,3 +92,8 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/testing-agent/`
+- [Testing Rules](../../instructions/testing-rules.md)
+- [Coding Standards](../../instructions/coding-standards.md)
+- [Security Rules](../../instructions/security-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

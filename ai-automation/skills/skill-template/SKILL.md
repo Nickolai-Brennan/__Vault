@@ -85,3 +85,10 @@ See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs a
 1. Copy a prompt from `evals/evals.json`.
 2. Run it with this skill active.
 3. Compare output to `expected_output` — check completeness, accuracy, format, and safety.
+
+
+## References
+- [Skills Spec](../../references/skills-spec.md)
+- [Skill Creator](../skill-creator/SKILL.md) — use to create and iterate on new skills
+- [Eval Runner](../eval-runner/SKILL.md)
+- [Skill Registry](../skill-registry.md)

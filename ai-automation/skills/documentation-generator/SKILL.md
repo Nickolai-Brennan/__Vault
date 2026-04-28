@@ -54,6 +54,11 @@ Use this skill when the user asks to:
 - [ ] No placeholder text in final output
 - [ ] All file path references are relative and correct
 
-## Reference
-- [`instructions/docs.md`](../../instructions/docs.md)
-- [`prompts/docs-prompt.md`](../../prompts/docs-prompt.md)
+## References
+- [Docs Rules](../../instructions/docs-rules.md)
+- [Docs Guide](../../instructions/docs.md)
+- [Markdown Content Creation](../../instructions/markdown-content-creation.instructions.md)
+- [Prompt Engineering Guide](../../references/prompt-engineering-guide.md)
+- [Doc Standards](references/doc-standards.md)
+- [Documentation Agent](../../agents/documentation-agent/AGENT.md)
+- [Skill Registry](../skill-registry.md)

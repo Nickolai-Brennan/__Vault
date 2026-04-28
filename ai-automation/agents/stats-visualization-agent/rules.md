@@ -42,3 +42,9 @@
 - [ ] Use inappropriate chart types for the data structure
 - [ ] Display individual-level PII in any visualization
 - [ ] Generate production frontend code
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

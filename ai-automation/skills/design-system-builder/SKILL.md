@@ -71,3 +71,10 @@ frontend/src/design-system/
 - [`docs/design-system.md`](../../docs/design-system.md)
 - [`phases/step-6.md`](../../phases/step-6.md)
 - [`.github/agents/design-system-agent.md`](../../.github/agents/design-system-agent.md)
+
+
+## References
+- [Frontend Rules](../../instructions/frontend-rules.md)
+- [HTML/CSS Style Guide](../../instructions/html-css-style-color-guide.instructions.md)
+- [Dashboard Design Guide](../../references/dashboard-design-guide.md)
+- [Skill Registry](../skill-registry.md)

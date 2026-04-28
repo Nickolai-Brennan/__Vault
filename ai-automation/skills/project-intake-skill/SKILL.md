@@ -161,3 +161,10 @@ adoption/change management).
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Workflow Design Guide](../../references/workflow-design-guide.md)
+- [Automation Best Practices](../../references/automation-best-practices.md)
+- [Project Planning Skill](../project-planning-skill/SKILL.md)
+- [Skill Registry](../skill-registry.md)

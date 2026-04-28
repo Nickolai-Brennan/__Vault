@@ -60,3 +60,9 @@ agent_output:
 - Never include real user data, PII, or internal financial projections in outputs.
 - Flag any copy claim that could expose the organization to false advertising liability.
 - Do not publish content that contradicts documented product capabilities.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

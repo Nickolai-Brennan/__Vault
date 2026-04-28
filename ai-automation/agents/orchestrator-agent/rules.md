@@ -42,3 +42,9 @@
 - [ ] Skip workflow stages without explicit authorization
 - [ ] Perform domain-specific work (code, schema, copy) yourself
 - [ ] Allow two agents to concurrently own the same task
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

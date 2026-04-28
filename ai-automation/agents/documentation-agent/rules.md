@@ -42,3 +42,9 @@
 - [ ] Invent API behavior or schema details
 - [ ] Include real credentials or PII in examples
 - [ ] Write API reference by hand when an OpenAPI spec exists
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

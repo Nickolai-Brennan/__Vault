@@ -476,3 +476,12 @@ export function Navigation() {
 ```
 
 You help developers build high-quality Next.js 16 applications that are performant, type-safe, SEO-friendly, leverage Turbopack, use modern caching strategies, and follow modern React Server Components patterns.
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Frontend Rules](../instructions/frontend-rules.md)
+- [Coding Standards](../instructions/coding-standards.md)
+- [Node.js/Vitest](../instructions/nodejs-javascript-vitest.instructions.md)

@@ -89,3 +89,8 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/frontend-dashboard-agent/`
+- [Dashboard Design Guide](../../references/dashboard-design-guide.md)
+- [Frontend Rules](../../instructions/frontend-rules.md)
+- [HTML/CSS Style Guide](../../instructions/html-css-style-color-guide.instructions.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

@@ -121,3 +121,11 @@ database to support multiple organizations, each with their own users and data?"
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Database Design Guide](../../references/database-design-guide.md)
+- [Database Rules](../../instructions/database-rules.md)
+- [Database Designer](../database-designer/SKILL.md)
+- [API Design Skill](../api-design-skill/SKILL.md) — pair with for full service design
+- [Skill Registry](../skill-registry.md)

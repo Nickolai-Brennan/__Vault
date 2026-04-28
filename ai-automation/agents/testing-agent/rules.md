@@ -42,3 +42,9 @@
 - [ ] Set coverage targets after writing test cases
 - [ ] Use real PII in test fixtures
 - [ ] Run destructive tests outside of isolated test environments
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

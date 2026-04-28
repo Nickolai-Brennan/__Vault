@@ -60,3 +60,9 @@ agent_output:
 - Never design a pattern storing passwords in plaintext.
 - Warn before finalizing any design that bypasses an existing security control.
 - Flag any service that processes PII and ensure it is covered by the security controls design.
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

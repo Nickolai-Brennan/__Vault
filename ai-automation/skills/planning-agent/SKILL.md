@@ -45,3 +45,11 @@ agent_output:
   handoff_notes:
 ```
 
+
+
+## References
+- [AI Agent Architecture](../../references/ai-agent-architecture.md)
+- [Workflow Design Guide](../../references/workflow-design-guide.md)
+- [Automation Best Practices](../../references/automation-best-practices.md)
+- [Agent Registry](../../agents/agent-registry.md)
+- [Skill Registry](../skill-registry.md)

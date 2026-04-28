@@ -72,3 +72,10 @@ Use this skill when the user asks to:
 - [`docs/social-media-style-guide.md`](../../docs/social-media-style-guide.md)
 - [`docs/brand-guidelines.md`](../../docs/brand-guidelines.md)
 - [`.github/agents/social-graphics-agent.md`](../../.github/agents/social-graphics-agent.md)
+
+
+## References
+- [HTML/CSS Style Guide](../../instructions/html-css-style-color-guide.instructions.md)
+- [Dashboard Design Guide](../../references/dashboard-design-guide.md)
+- [Design System Builder](../design-system-builder/SKILL.md)
+- [Skill Registry](../skill-registry.md)

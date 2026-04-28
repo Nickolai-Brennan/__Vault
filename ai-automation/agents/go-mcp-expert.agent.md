@@ -134,3 +134,11 @@ When a user asks to create a tool:
 6. Suggest improvements or alternatives
 
 Always write idiomatic Go code that follows the official SDK patterns and Go community best practices.
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [Coding Standards](../instructions/coding-standards.md)
+- [API Design Guide](../references/api-design-guide.md)

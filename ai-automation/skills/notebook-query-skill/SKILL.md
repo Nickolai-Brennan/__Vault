@@ -122,3 +122,11 @@ with `df.resample()`, (5) top 10 products by revenue with `.groupby().agg().sort
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [Data Pipeline Guide](../../references/data-pipeline-guide.md)
+- [Data Rules](../../instructions/data-rules.md)
+- [Model Formula Skill](../model-formula-skill/SKILL.md)
+- [Database Designer](../database-designer/SKILL.md)
+- [Skill Registry](../skill-registry.md)

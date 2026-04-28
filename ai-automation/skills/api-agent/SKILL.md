@@ -104,3 +104,11 @@ assigned to multiple tasks."
 ## Testing / Evals
 See `evals/evals.json` for test prompts. Run 2–3 prompts and compare outputs against
 `expected_output` descriptions.
+
+
+## References
+- [API Design Guide](../../references/api-design-guide.md)
+- [API Rules](../../instructions/api-rules.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../../agents/agent-registry.md)
+- [API Agent](../../agents/api-agent/AGENT.md)

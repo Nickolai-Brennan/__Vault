@@ -91,3 +91,8 @@ agent_output:
 
 ## References
 - Output directory: `docs/agent-outputs/documentation-agent/`
+- [Docs Rules](../../instructions/docs-rules.md)
+- [Markdown Content Creation](../../instructions/markdown-content-creation.instructions.md)
+- [Prompt Engineering Guide](../../references/prompt-engineering-guide.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

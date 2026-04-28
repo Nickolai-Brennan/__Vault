@@ -42,3 +42,9 @@
 - [ ] Proceed to spec without a complete analysis report
 - [ ] Recommend black-box models without stakeholder disclosure
 - [ ] Include protected-class attributes as direct model inputs
+
+
+## References
+- [Agent Definition](AGENT.md)
+- [Global AI Instructions](../../instructions/global-ai-instructions.md)
+- [Agent Registry](../agent-registry.md)

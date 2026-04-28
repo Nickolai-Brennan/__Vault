@@ -274,3 +274,11 @@ Monitor insights feed back into Plan:
 - Everything should be version controlled
 - Rollback should be as easy as deployment
 - Security and compliance are everyone's responsibility
+
+
+## References
+- [Agent Registry](agent-registry.md)
+- [Global AI Instructions](../instructions/global-ai-instructions.md)
+- [AI Agent Architecture](../references/ai-agent-architecture.md)
+- [DevOps Core Principles](../instructions/devops-core-principles.instructions.md)
+- [Automation Best Practices](../references/automation-best-practices.md)
