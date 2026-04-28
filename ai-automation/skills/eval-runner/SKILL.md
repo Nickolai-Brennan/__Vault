@@ -61,12 +61,9 @@ Use this skill when the user asks to:
 - [ ] Saved to `evals/[skill-name]-evals.json`
 - [ ] Edge cases covered where relevant
 
-## Reference
+## References
 - [`evals/`](../../evals/)
 - [`instructions/testing.md`](../../instructions/testing.md)
-
-
-## References
 - [Skills Spec](../../references/skills-spec.md)
 - [Schemas](../../references/schemas.json)
 - [Skill Creator](../skill-creator/SKILL.md)

@@ -57,12 +57,9 @@ database/
 - [ ] Alembic migration created for every schema change
 - [ ] Indexes defined in `database/indexes/`
 
-## Reference
+## References
 - [`instructions/database.md`](../../instructions/database.md)
 - [`workflows/database-build.md`](../../workflows/database-build.md)
-
-
-## References
 - [Database Design Guide](../../references/database-design-guide.md)
 - [Database Rules](../../instructions/database-rules.md)
 - [Database Schema Skill](../database-schema-skill/SKILL.md)
