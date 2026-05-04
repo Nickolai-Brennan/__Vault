@@ -47,7 +47,7 @@ These files provide domain-specific guidance for particular technologies or work
 | [task-implementation.instructions.md](./task-implementation.instructions.md) | Task planning and implementation |
 | [docs-update.instructions.md](./docs-update.instructions.md) | Documentation update workflow |
 | [code-review-generic.instructions.md](./code-review-generic.instructions.md) | Generic code review guidelines |
-| [context-engineering.instructions (1).md](./context-engineering.instructions%20(1).md) | Context window engineering |
+| [context-engineering.instructions.md](./context-engineering.instructions.md) | Context window engineering |
 | [devops-core-principles.instructions.md](./devops-core-principles.instructions.md) | DevOps principles |
 | [github-actions-ci-cd-best-practices.instructions.md](./github-actions-ci-cd-best-practices.instructions.md) | GitHub Actions / CI-CD |
 | [html-css-style-color-guide.instructions.md](./html-css-style-color-guide.instructions.md) | HTML/CSS style guide |

@@ -6,6 +6,9 @@ All registered workflows in the mods system.
 |---|---|---|---|---|
 | WF-00 | project-intake | ALL | project-planner-agent | project_brief, roadmap, milestones, risk_register |
 | WF-01 | data-collection | ALL | orchestrator-agent | ingested_raw_data, data_inventory, source_report |
+<!-- WF-01 primary agent corrected from data-cleanup-agent to orchestrator-agent.
+     The orchestrator coordinates all ingestion tasks in WF-01; data-cleanup-agent plays a
+     secondary pre-validation role. See 01-data-collection.workflow.md for the full participant list. -->
 | WF-02 | data-cleanup | ALL | data-cleanup-agent | cleaned_dataset, cleaning_report, validation_summary |
 | WF-03 | data-analysis | ALL | data-analysis-agent | analysis_report, statistical_summary, key_insights |
 | WF-04 | model-development | MVP, PROD | model-development-agent | model_spec, feature_definitions, evaluation_plan |
