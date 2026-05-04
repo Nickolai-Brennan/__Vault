@@ -5,7 +5,7 @@
      1	AI_AUTOMATION_OVERVIEW.md
      2	INDEX.md
      3	README.md
-     4	ai-automation-roadmap.md
+     4	mods-roadmap.md
      5	ai-governance.md
      6	ai-quality-checklist.md
      7	ai-security-rules.md

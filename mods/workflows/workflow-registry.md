@@ -1,6 +1,6 @@
 # Workflow Registry
 
-All registered workflows in the ai-automation system.
+All registered workflows in the mods system.
 
 | ID | Name | Phase | Primary Agent | Output |
 |---|---|---|---|---|
