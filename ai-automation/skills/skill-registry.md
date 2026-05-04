@@ -12,3 +12,28 @@
 8. **markdown-docs-skill** - Markdown documentation
 9. **code-review-skill** - Code review and analysis
 10. **launch-checklist-skill** - Launch readiness checklist
+11. **repo-triage** - Triage GitHub issues/PRs: labels, routing, and triage comments
+12. **changelog-writer** - Write structured changelogs from commit history or PR lists
+13. **release-notes-generator** - Generate user-facing release notes and product announcements
+14. **meeting-notes-to-actions** - Convert meeting transcripts/notes to action items and decisions
+15. **daily-standup-drafter** - Draft daily standup updates from commits, tickets, or notes
+16. **weekly-review-summarizer** - Summarize a week's work into a structured weekly review
+17. **docs-refactorer** - Rewrite and restructure existing docs to a consistent standard
+18. **knowledge-base-ingester** - Convert raw notes and brain dumps into structured KB articles
+19. **prompt-library-curator** - Organize, tag, deduplicate, and improve a prompt library
+20. **eval-set-builder** - Build evaluation sets (prompts + expected outputs) for AI skills
+21. **codebase-onboarding-guide** - Generate developer onboarding guides and CONTRIBUTING.md files
+22. **dependency-audit-assistant** - Audit project dependencies for CVEs, outdated versions, and license issues
+23. **security-review-checklist-runner** - Run a structured security review checklist against code or API designs
+24. **incident-postmortem-writer** - Write blameless incident postmortems from raw notes and timelines
+25. **log-triage-helper** - Triage and summarize error logs to identify root causes and patterns
+26. **python-script-generator** - Generate safe, well-structured Python automation scripts
+27. **sql-migration-drafter** - Draft SQL migrations with up/down pairs and zero-downtime strategies
+28. **data-cleaning-recipe-writer** - Write pandas data cleaning pipelines for messy datasets
+29. **csv-to-report-generator** - Transform CSV data into structured, readable reports
+30. **api-client-scaffolder** - Scaffold typed API client code from OpenAPI specs or endpoint lists
+31. **test-plan-writer** - Write comprehensive test plans covering happy path, edge cases, and security
+32. **test-failure-summarizer** - Analyze and summarize test failures, classify root causes and flakiness
+33. **architecture-diagram-generator** - Generate Mermaid architecture, sequence, and ERD diagrams
+34. **prompt-optimizer** - Improve existing prompts for better AI output quality and consistency
+35. **workflow-documenter** - Document processes as SOPs, runbooks, and step-by-step guides
