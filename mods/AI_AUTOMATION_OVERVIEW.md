@@ -30,7 +30,7 @@ The AI automation framework enables orchestrated, guided AI agent execution with
 
 ## Getting Started
 
-1. Review the [Roadmap](./ai-automation-roadmap.md)
+1. Review the [Roadmap](./mods-roadmap.md)
 2. Understand [Governance](./ai-governance.md)
 3. Follow [Security Rules](./ai-security-rules.md)
 4. Use [Quality Checklist](./ai-quality-checklist.md)

@@ -137,6 +137,6 @@ Select **one primary type** and any applicable secondary types:
 | File | Purpose |
 |------|---------|
 | `README.md` | High-level project overview |
-| `ai-automation/workflows/00-project-intake.workflow.md` | Intake workflow |
-| `ai-automation/templates/project-template.md` | Full question model template |
-| `ai-automation/schemas/project.schema.json` | Machine-readable project schema |
+| `mods/workflows/00-project-intake.workflow.md` | Intake workflow |
+| `mods/templates/project-template.md` | Full question model template |
+| `mods/schemas/project.schema.json` | Machine-readable project schema |

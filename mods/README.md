@@ -22,7 +22,7 @@ This directory contains the complete AI automation framework, including agents, 
 ## Quick Links
 
 - [AI Automation Overview](./AI_AUTOMATION_OVERVIEW.md)
-- [Roadmap](./ai-automation-roadmap.md)
+- [Roadmap](./mods-roadmap.md)
 - [Governance](./ai-governance.md)
 - [Security Rules](./ai-security-rules.md)
 - [Quality Checklist](./ai-quality-checklist.md)

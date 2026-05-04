@@ -1,6 +1,6 @@
 # Agent Template
 
-Use this template when creating a new agent. Copy each file into a new `<agent-name>/` directory under `ai-automation/agents/`, replace all `[PLACEHOLDER]` sections, and register the agent in `agent-registry.md`.
+Use this template when creating a new agent. Copy each file into a new `<agent-name>/` directory under `mods/agents/`, replace all `[PLACEHOLDER]` sections, and register the agent in `agent-registry.md`.
 
 ## Directory Structure
 
@@ -14,8 +14,8 @@ Use this template when creating a new agent. Copy each file into a new `<agent-n
 
 ## Creation Steps
 
-1. Create the agent directory: `ai-automation/agents/<agent-name>/`
-2. Copy and fill in each of the four template files (see `ai-automation/templates/agent-template.md` for starters)
+1. Create the agent directory: `mods/agents/<agent-name>/`
+2. Copy and fill in each of the four template files (see `mods/templates/agent-template.md` for starters)
 3. Define the YAML frontmatter in `AGENT.md` (name, phase, inputs, outputs)
 4. Write the system prompt in `prompt.md` — this is what gets injected into the model context
 5. Enumerate specific rules and error handling in `rules.md`
