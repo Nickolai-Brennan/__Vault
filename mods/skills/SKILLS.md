@@ -1,6 +1,6 @@
 # SKILLS.md
 
-Master list of reusable skills for the Project Agent Engine.
+**This is a conceptual skill taxonomy** — a comprehensive catalogue of capability categories and descriptions. It is *not* a registry of implemented skills. For the list of skills that have been built and are ready to use, see [`skill-registry.md`](./skill-registry.md).
 
 ## Usage Rule
 
@@ -197,10 +197,10 @@ Master list of reusable skills for the Project Agent Engine.
 
 ---
 
-## Recommended Next Files
+## Related Resources
 
-- `AGENT_SYSTEM_INDEX.md`
-- `WORKFLOW_LIBRARY.md`
-- `PROMPT_LIBRARY.md`
-- `BEST_PRACTICES.md`
-- `/docs/agent-outputs/`
+- [`skill-registry.md`](./skill-registry.md) — Registry of implemented skills with directories
+- [`skill-template/SKILL.md`](./skill-template/SKILL.md) — Template for creating new skills
+- [`../agents/agent-registry.md`](../agents/agent-registry.md) — Agent registry
+- [`../workflows/workflow-registry.md`](../workflows/workflow-registry.md) — Workflow registry
+- [`../prompts/prompt-registry.md`](../prompts/prompt-registry.md) — Prompt registry

@@ -53,6 +53,39 @@ Output from each agent is saved to `docs/agent-outputs/<agent-name>/` and format
 
 ---
 
+## Additional Subdirectory Agents
+
+These agents have full subdirectory structures but serve more specialised roles:
+
+| Agent | Directory | Role |
+|---|---|---|
+| API Architect | `api-architect/` | Guides API design interactively; generates working connectivity code from developer-supplied specs |
+| Mentor | `mentor/` | Mentor mode — challenges engineers' assumptions and guides problem-solving without writing code |
+
+---
+
+## Specialist Persona Agents
+
+These agents use a single `.agent.md` file (YAML frontmatter + instructions) rather than the four-file structure. They are designed to be activated as Copilot personas or chat modes.
+
+| Agent file | Name | Role |
+|---|---|---|
+| `arch.agent.md` | Senior Cloud Architect | Architecture design patterns, NFR requirements, diagrams |
+| `devops-expert.agent.md` | DevOps Expert | Full DevOps infinity loop: Plan → Code → Build → Test → Release → Deploy → Operate → Monitor |
+| `expert-nextjs-developer.agent.md` | Next.js Expert | Next.js 16 App Router, Server Components, Turbopack, TypeScript |
+| `expert-react-frontend-engineer.agent.md` | Expert React Frontend Engineer | React 19.2 hooks, Server Components, Actions, TypeScript, performance |
+| `go-mcp-expert.agent.md` | Go MCP Server Development Expert | Building MCP servers in Go using the official SDK |
+| `markdown-accessibility-assistant.agent.md` | Markdown Accessibility Assistant | Improves markdown accessibility per GitHub best practices |
+| `postgresql-dba.agent.md` | PostgreSQL Database Administrator | PostgreSQL administration, schema, and query work via the PostgreSQL extension |
+| `prompt-builder.agent.md` | Prompt Builder | Expert prompt engineering and validation |
+| `search-ai-optimization-expert.agent.md` | Search & AI Optimization Expert | SEO, AEO, and GEO with AI-ready content strategies |
+| `task-planner.agent.md` | Task Planner | Creates actionable implementation plans with tracking files |
+| `task-researcher.agent.md` | Task Researcher | Comprehensive project and codebase analysis before planning |
+| `technical-content-evaluator.agent.md` | Technical Content Evaluator | Evaluates technical training materials for accuracy and pedagogy |
+| `vision-reverse-breakdown.md` | Vision Reverse Breakdown | Reverse-engineers a finished product vision into systems, tasks, and MVP scope |
+
+---
+
 ## Typical Workflow Sequence
 
 ```

@@ -79,3 +79,56 @@
 58. **sql-query-optimizer** - Analyze slow SQL queries, interpret EXPLAIN plans, recommend indexes, and rewrite problem queries
 59. **json-transformer** - Write typed transformation functions to reshape JSON from one schema to another
 60. **seed-data-generator** - Generate realistic SQL seed data, TypeScript/Python factories, and JSON fixtures for testing
+
+---
+
+## Build Skills
+
+61. **api-agent** - Design and document REST and GraphQL APIs, OpenAPI specifications, and service boundaries
+62. **database-designer** - Design and document PostgreSQL schemas, migrations, seeds, and indexes
+63. **design-system-builder** - Scaffold, build, and extend a design system including tokens, components, and patterns
+64. **documentation-generator** - Generate and maintain project documentation, READMEs, changelogs, and architecture guides
+65. **search-builder** - Build and extend search systems: routes, indexing, ranking, filters, and analytics
+66. **ui-component-builder** - Create and extend reusable UI components in a design system
+
+## Evaluation Skills
+
+67. **eval-runner** - Create and run agent evals to verify AI output quality and benchmark skill performance
+
+## Analytics Skills
+
+68. **metrics-definition-skill** - Define KPIs, events, and reporting views for a project or feature
+
+## PDF Skills
+
+69. **pdf-skill** - Read, extract, merge, split, rotate, watermark, create, fill, encrypt, and OCR PDF files
+
+## Planning Skills
+
+70. **planning-agent** - Convert raw ideas into structured project plans, phases, MVP scope, risks, and outputs
+71. **project-planning-skill** - Convert product ideas into structured briefs with scope, audience, features, and revenue paths
+
+## Audit Skills
+
+72. **seo-auditor** - Run SEO audits on CMS posts, generate SEO reports, and provide keyword and tag recommendations
+
+## Design Skills
+
+73. **social-graphics-builder** - Define and extend social media graphic templates and design rules
+
+## Verification Skills
+
+74. **stack-verifier** - Verify the project environment and stack are correctly installed and configured
+
+## Monetization Skills
+
+75. **subscription-manager** - VIP subscription lifecycle management: plan display, Stripe Checkout, webhook activation, and access control
+
+## Testing Skills
+
+76. **webapp-testing** - Test web apps with Playwright: UI verification, screenshots, and browser automation
+
+## Utility Skills
+
+77. **universal-skills-manager** - Discover, install, and synchronize AI skills from multiple sources (SkillsMP, SkillHub, ClawHub) across AI tools
+78. **what-context-needed** - Ask Copilot what files it needs to see before answering a question

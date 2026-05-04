@@ -14,3 +14,17 @@
 10. documentation-builder.prompt.md - Documentation generation
 11. testing-review.prompt.md - Testing and review
 12. deployment-review.prompt.md - Deployment checklist
+
+## Stack-Specific Prompts
+
+13. api-prompt.md - FastAPI REST + GraphQL (Strawberry) stack-specific API guidance
+14. backend-prompt.md - FastAPI + Python + PostgreSQL backend code generation and review
+15. database-prompt.md - PostgreSQL on MotherDuck schema, migrations, and seed design
+16. frontend-prompt.md - React + Vite + TypeScript + Tailwind UI code generation and review
+17. docs-prompt.md - Markdown documentation generation and updates
+
+## Project Management Prompts
+
+18. project-summary-prompt.md - Capture a concise project summary during intake
+19. stack-selection-prompt.md - Verify or re-confirm locked stack decisions
+20. review-prompt.md - QA reviews, code cleanup, and full-stack completion checks
