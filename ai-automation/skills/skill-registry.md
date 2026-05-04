@@ -37,3 +37,45 @@
 33. **architecture-diagram-generator** - Generate Mermaid architecture, sequence, and ERD diagrams
 34. **prompt-optimizer** - Improve existing prompts for better AI output quality and consistency
 35. **workflow-documenter** - Document processes as SOPs, runbooks, and step-by-step guides
+
+---
+
+## Coding Skills
+
+36. **code-refactoring-assistant** - Refactor code for clarity, reduced complexity, and better structure without changing behavior
+37. **regex-builder** - Build, explain, and debug regular expressions from natural language descriptions
+38. **error-handler-writer** - Write consistent error classes, middleware, and structured error responses for APIs
+39. **type-definition-generator** - Generate TypeScript interfaces, types, and Zod schemas from JSON samples or API responses
+40. **cli-tool-generator** - Scaffold CLI tools with subcommands, flags, help text, and colored output (Node.js/Python/Go)
+
+## Frontend Skills
+
+41. **react-component-generator** - Generate typed, accessible React functional components with hooks and test stubs
+42. **css-layout-helper** - Create CSS Grid/Flexbox layout solutions for page and component layouts
+43. **animation-snippet-writer** - Write CSS keyframe animations, transitions, and Framer Motion effects
+44. **accessibility-checker** - Review HTML/JSX components against WCAG 2.1 AA and produce a prioritized remediation report
+45. **form-builder** - Build accessible forms with field validation, error states, and React Hook Form + Zod
+46. **responsive-breakpoint-planner** - Plan and write mobile-first responsive CSS breakpoints and fluid typography
+
+## UI / Design System Skills
+
+47. **color-palette-generator** - Generate accessible color palettes with WCAG contrast ratios and CSS/Tailwind token output
+48. **dark-mode-implementer** - Add dark mode and theme switching with CSS tokens, a toggle hook, and FOUC prevention
+49. **design-token-exporter** - Export design system tokens to CSS variables, TypeScript constants, Tailwind config, and W3C JSON
+50. **icon-component-library-builder** - Scaffold a typed, accessible SVG icon component system for React or Vue
+
+## Backend Skills
+
+51. **rest-endpoint-generator** - Generate REST API handlers with input validation, auth checks, error responses, and OpenAPI stubs
+52. **graphql-schema-writer** - Write GraphQL SDL schemas, resolvers, mutations, subscriptions, and error union types
+53. **background-job-designer** - Design and scaffold BullMQ/Celery job queues, workers, retry policies, and dead-letter handlers
+54. **webhook-handler-builder** - Build webhook receiver endpoints with signature verification, idempotency, and event routing
+55. **caching-strategy-advisor** - Recommend and implement cache-aside patterns, TTL strategies, and Redis caching for APIs
+56. **rate-limiter-builder** - Implement rate limiting middleware with sliding window, Redis backing, and plan-based quotas
+
+## Data Skills
+
+57. **data-pipeline-designer** - Design and scaffold incremental ETL/ELT data pipelines with extract, transform, and load stages
+58. **sql-query-optimizer** - Analyze slow SQL queries, interpret EXPLAIN plans, recommend indexes, and rewrite problem queries
+59. **json-transformer** - Write typed transformation functions to reshape JSON from one schema to another
+60. **seed-data-generator** - Generate realistic SQL seed data, TypeScript/Python factories, and JSON fixtures for testing
