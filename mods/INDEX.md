@@ -1,126 +1,97 @@
-# Complete Directory Index
+# mods/ Directory Index
 
-## Root Files (6)
+This index lists every subdirectory in `mods/` with its purpose and key files. File counts are approximate; run `scripts/validate_file_tree.py` to get current counts.
 
-     1	AI_AUTOMATION_OVERVIEW.md
-     2	INDEX.md
-     3	README.md
-     4	mods-roadmap.md
-     5	ai-governance.md
-     6	ai-quality-checklist.md
-     7	ai-security-rules.md
+## Root Files
+
+| File | Purpose |
+|------|---------|
+| [README.md](./README.md) | Framework overview, structure, and quick links |
+| [AI_AUTOMATION_OVERVIEW.md](./AI_AUTOMATION_OVERVIEW.md) | High-level overview of the automation system |
+| [ai-automation-roadmap.md](./ai-automation-roadmap.md) | Phased roadmap with milestones |
+| [ai-governance.md](./ai-governance.md) | Governance policies and principles |
+| [ai-quality-checklist.md](./ai-quality-checklist.md) | Pre- and post-deployment quality checklist |
+| [ai-security-rules.md](./ai-security-rules.md) | Security rules for agents and data |
 
 ## Subdirectories
 
-### agents (59 files)
-README.md
-agent-registry.md
-agent-template.md
-api-agent
-backend-agent
-... and 12 more files
+### [agents/](./agents/)
+Agent definitions and configurations. Each production agent has a four-file structure (`AGENT.md`, `prompt.md`, `rules.md`, `workflows.md`). Specialist persona agents use a single `.agent.md` file.
 
-### automations (11 files)
-README.md
-automation-registry.md
-automation-template.md
-broken-link-check.md
-changelog-generator.md
-... and 6 more files
+Key files: `agent-registry.md`, `agent-template.md`
 
-### evals (8 files)
-README.md
-agent-evals.md
-code-quality-evals.md
-data-quality-evals.md
-eval-template.md
-... and 3 more files
+### [automations/](./automations/)
+Automated task definitions and schedules.
 
-### instructions (12 files)
-README.md
-api-rules.md
-coding-standards.md
-copilot-instructions.md
-data-rules.md
-... and 7 more files
+Key files: `automation-registry.md`, `automation-template.md`
 
-### logs (7 files)
-README.md
-agent-run-log.md
-automation-log.md
-error-log.md
-prompt-change-log.md
-... and 2 more files
+### [commands/](./commands/)
+Slash commands and CLI command definitions for the automation framework.
 
-### memory (7 files)
-README.md
-agent-feedback-log.md
-assumptions-log.md
-decision-log.md
-lessons-learned.md
-... and 2 more files
+Key files: `README.md`
 
-### prompts (15 files)
-README.md
-api-builder.prompt.md
-dashboard-ui.prompt.md
-data-analysis.prompt.md
-data-cleaning.prompt.md
-... and 10 more files
+### [evals/](./evals/)
+Evaluation frameworks, eval templates, and results.
 
-### references (9 files)
-README.md
-ai-agent-architecture.md
-api-design-guide.md
-automation-best-practices.md
-dashboard-design-guide.md
-... and 4 more files
+Key files: `eval-template.md`, `agent-evals.md`, `prompt-evals.md`, `workflow-evals.md`
 
-### schemas (9 files)
-README.md
-agent.schema.json
-automation.schema.json
-eval.schema.json
-memory.schema.json
-... and 4 more files
+### [instructions/](./instructions/)
+Global instructions, domain rules, and coding standards for agents and developers.
 
-### scripts (10 files)
-README.md
-generate_agent.py
-generate_prompt.py
-generate_skill.py
-generate_task_list.py
-... and 5 more files
+Key files: `global-ai-instructions.md`, `copilot-instructions.md`, `coding-standards.md`, `security-rules.md`
 
-### skills (13 files)
-README.md
-api-design-skill
-code-review-skill
-dashboard-design-skill
-data-cleaning-skill
-... and 8 more files
+### [logs/](./logs/)
+Append-only run logs and audit trails. These files begin empty and accumulate entries over agent runs.
 
-### tasks (8 files)
-README.md
-active-tasks.md
-backlog.md
-blocked-tasks.md
-completed-tasks.md
-... and 3 more files
+Key files: `agent-run-log.md`, `workflow-run-log.md`, `error-log.md`, `release-log.md`
 
-### templates (9 files)
-README.md
-agent-template.md
-changelog-template.md
-eval-template.md
-prompt-template.md
-... and 4 more files
+### [MCP/](./MCP/)
+Model Context Protocol (MCP) server configuration files.
 
-### workflows (14 files)
-00-project-intake.workflow.md
-01-data-collection.workflow.md
-02-data-cleanup.workflow.md
-03-data-analysis.workflow.md
-04-model-development.workflow.md
-... and 9 more files
+Key files: `README.md`, `PostgreSqL_Connect.json`
+
+### [memory/](./memory/)
+Project memory, decision logs, and learnings. These files begin empty and accumulate entries over time.
+
+Key files: `project-memory.md`, `decision-log.md`, `lessons-learned.md`
+
+### [prompts/](./prompts/)
+Prompt templates and prompt definitions for use with agents.
+
+Key files: `prompt-registry.md`, `prompt-template.md`
+
+### [references/](./references/)
+Reference documentation and design guides.
+
+Key files: `ai-agent-architecture.md`, `prompt-engineering-guide.md`, `workflow-design-guide.md`, `api-design-guide.md`
+
+### [schemas/](./schemas/)
+JSON schemas for validating agents, skills, prompts, workflows, and other artifacts.
+
+Key files: `agent.schema.json`, `skill.schema.json`, `prompt.schema.json`, `workflow.schema.json`, `project.schema.json`
+
+### [scripts/](./scripts/)
+Utility Python scripts for generating, validating, and maintaining framework artifacts.
+
+Key files: `generate_agent.py`, `generate_skill.py`, `validate_file_tree.py`, `validate_prompts.py`
+
+### [skills/](./skills/)
+Reusable skill modules. Each skill has a `SKILL.md` and optional `evals/`, `references/`, `scripts/`, and `templates/` subdirectories. Packaged skills are distributed as `.zip` files.
+
+Key files: `skill-registry.md`, `SKILLS.md` (conceptual skill taxonomy), `skill-template/`
+
+### [tasks/](./tasks/)
+Task tracking and management files.
+
+Key files: `task-schema.md`, `task-template.md`, `backlog.md`, `active-tasks.md`, `completed-tasks.md`
+
+### [templates/](./templates/)
+Reusable templates for creating new agents, skills, prompts, workflows, tasks, and projects.
+
+Key files: `agent-template.md`, `skill-template.md`, `project-template.md`, `project-types/`
+
+### [workflows/](./workflows/)
+Workflow orchestration files. Numbered workflows (`00–10`) follow the standard lifecycle; additional workflows cover specific build and operational patterns.
+
+Key files: `workflow-registry.md`, `workflow-template.md`, `00-project-intake.workflow.md` – `10-launch-review.workflow.md`
 
