@@ -5,11 +5,13 @@
  ---
  name: your-skill-name
  description: |
-   [100–150 words: describe what the skill does, when to trigger it, common user phrasings
+ ```
+   100–150 words: describe what the skill does, when to trigger it, common user phrasings
    that should invoke it (e.g., "design an API", "review my code", "clean this data"), and
    key exclusions — things that look similar but should NOT trigger this skill. Be explicit
    about trigger phrases so the routing system matches reliably. Mention the primary output
-   format. Include at least 3–5 example phrasings a user might say.]
+   format. Include at least 3–5 example phrasings a user might say.
+```
  ---
  
  ## Overview
