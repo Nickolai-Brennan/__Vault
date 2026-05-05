@@ -5,24 +5,50 @@ This directory contains the complete AI automation framework, including agents, 
 ## Structure
 
 - **agents/**: Agent definitions and configurations
-- **skills/**: Reusable skill modules
-- **prompts/**: Prompt templates and definitions
-- **workflows/**: Workflow orchestration files
-- **instructions/**: Global instructions and standards
 - **automations/**: Automated task definitions
-- **tasks/**: Task tracking and management
-- **memory/**: Project memory and decision logs
+- **commands/**: Slash commands and CLI command definitions
 - **evals/**: Evaluation frameworks and results
-- **scripts/**: Utility scripts
+- **instructions/**: Global instructions and coding standards
+- **logs/**: Run logs and audit trails (append-only; start empty)
+- **MCP/**: Model Context Protocol server configurations
+- **memory/**: Project memory and decision logs (append-only; start empty)
+- **prompts/**: Prompt templates and definitions
+- **references/**: Reference documentation and guides
 - **schemas/**: JSON schemas for validation
+- **scripts/**: Utility and generation scripts
+- **skills/**: Reusable skill modules
+- **tasks/**: Task tracking and management
 - **templates/**: Reusable templates
-- **references/**: Reference documentation
-- **logs/**: Run logs and audit trails
+- **workflows/**: Workflow orchestration files
 
 ## Quick Links
 
 - [AI Automation Overview](./AI_AUTOMATION_OVERVIEW.md)
-- [Roadmap](./mods-roadmap.md)
+- [Roadmap](./ai-automation-roadmap.md)
 - [Governance](./ai-governance.md)
 - [Security Rules](./ai-security-rules.md)
 - [Quality Checklist](./ai-quality-checklist.md)
+
+## File Generation Order
+
+When bootstrapping a new project from this framework, generate files in this order:
+
+```
+1. instructions/
+2. .github/copilot-instructions.md
+3. .github/agents/
+4. agents/
+5. skills/
+6. workflows/
+7. prompts/
+8. templates/
+9. evals/
+10. scripts/
+11. commands/
+12. docs/
+13. frontend/
+14. backend/
+15. database/
+16. api/
+17. tests/
+```
